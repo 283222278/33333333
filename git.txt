@@ -7,3 +7,12 @@ git reflog
 git reset --hard HEAD~1
 git checkout -- readme.txt 把工作区的修改全部撤销 
 git reset HEAD readme.txt 把缓冲区的内容撤销，重新放回工作区,不会修改工作区
+git rm test.txt
+
+git remote add origin https://github.com/283222278/learngit.git
+git push -u origin master
+
+创建dev分支，然后切换到dev分支
+git checkout -b dev
+git branch dev
+git checkout dev
