@@ -5,3 +5,5 @@ git status
 git log
 git reflog
 git reset --hard HEAD~1
+git checkout -- readme.txt 把工作区的修改全部撤销 
+git reset HEAD readme.txt 把缓冲区的内容撤销，重新放回工作区,不会修改工作区
